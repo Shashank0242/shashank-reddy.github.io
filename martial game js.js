@@ -9,7 +9,7 @@ let loadImage = (src, callback) =>
 
 let imagePath = (frameNumber,animation) =>
 {
-    return "C:\\Users\\shashank reddy\\Desktop\\9"+animation+"\\"+frameNumber+".png";
+    return "9"+animation+"\\"+frameNumber+".png";
 };
 let frames = {
     idle: [1,2,3,4,5,6,7,8],
